@@ -1,0 +1,68 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;  
+    color: rgb(0, 0, 0);             
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+header{
+    padding: 50px 0;
+}
+
+header nav {
+    float: left;
+    width: 50%;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    margin-right: 320px;
+}
+
+header nav ul li a {
+    color: #000000;
+ }
+
+ header nav ul li {
+    display: inline-block;
+}
+
+.logo p{
+    float: right;
+}
+
+.nazvanie{
+    background: #dd5100;
+}
+
+.nazvanie img{
+    width: 80px;
+    height: 80px;
+}
+
+.text{
+    background-image: url(https://avatars.mds.yandex.net/i?id=2e424196e42e113d570384dd0cba17dfd2773714-12585680-images-thumbs&n=13);
+    background-size: auto;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+}
+
+.text p{
+    margin-left: 300px;
+}
